@@ -1,0 +1,158 @@
+body{
+background-image: url(Background.png);
+background-size: cover;
+font-family: Helvetica, sans-serif;
+}
+.header{
+		text-align: center;
+		position: relative;
+		top:3vh;
+}
+.header__logo{
+	position: absolute;
+	left: 25vw;
+}
+.header p{
+	display: inline;
+	margin-left: 3vw;
+	text-transform: uppercase;
+	color:white;
+    font-size: 0.9em;
+}
+.header p:hover{
+	text-decoration: underline;
+}
+.header__humburger{
+	border:none;
+	position: absolute;
+	left: 73vw;
+	line-height: 1em;
+	background: transparent url(btn-menu.png) 0 0 no-repeat;
+}
+.MainBlock{
+	background-image: url(BackNoOpacity.png);
+	position: relative;
+	margin: auto;
+	width: 800px;
+	margin-top: 18vh;
+	height: 420px;
+	text-align: center;
+}
+.MainBlock__huarache{
+	position: absolute;
+	left: 10%;
+	font-size: 5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:white;
+	}
+.MainBlock__cross{
+	position: absolute;
+	left: 11%;
+	top: 25%;
+}
+.MainBlock__3cross{
+	position: absolute;
+	bottom: 4%;
+	left: 25%;
+}
+.MainBlock__3cross img{
+   margin-left: 10px;
+}
+.MainBlock__dots{
+	position: absolute;
+	z-index: 2;
+	left: 90px;
+	top: 70px;
+}
+.MainBlock__WhiteRightBack{
+	position: absolute;
+	right: 25px;
+	top: 1px;
+	width: 220px;
+	height: 418px;
+	background-color: white;
+}
+.MainBlock__WhiteRightBack--close{
+	position: absolute;
+	top: 2%;
+	right: 4%;
+}
+.MainBlock__WhiteRightBack--new{
+	position: relative;
+	top: 7%;
+	left: 10%;
+	background-color: orange;
+	color: white;
+	width: 3em;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+.MainBlock__WhiteRightBack--the{
+	position: relative;
+	top: 8%;
+	left: 10%;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	text-align: left;
+}
+.MainBlock__WhiteRightBack--blue{
+	color: blue;
+}
+.MainBlock__WhiteRightBack--huarache{
+	position: relative;
+	top: 7.3%;
+	left: 10%;
+	font-size: 0.8em;
+	text-align: left;
+	width: 2em;
+}
+.MainBlock__WhiteRightBack--stars{
+	margin-left: 8%; 
+}
+.MainBlock__WhiteRightBack--cost{
+	font-size: 1.2em;
+	text-align: left;
+	margin-left: 10%;
+}
+.MainBlock__WhiteRightBack--cost:before{
+	content: "$";
+}
+.MainBlock__WhiteRightBack--size{
+	font-size: 0.8em;
+	text-align: left;
+	margin-left: 10%;
+}
+.MainBlock__sizechoise:hover{
+border: solid 1px black;
+padding: 2px;
+}
+#seven{
+	margin-left: 10%;
+}
+.MainBlock__sizechoise{
+    /*position: relative;*/
+	margin-right: 12px;
+	border: solid 1px transparent;
+	padding: 2px;
+	float: left;
+}
+.WhiteRightBack__button{
+	width: 120px;
+    background-color: white;
+    margin-top: 3%;
+    margin-left: -22%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    border: solid 1px black;
+}
+.WhiteRightBack__button--bigger{
+	margin-top: 10%;
+}
+.WhiteRightBack__button:hover{
+	color: white;
+	background-color: #a200b8;
+	border-style: none;
+}
